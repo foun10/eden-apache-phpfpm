@@ -10,7 +10,9 @@ Environment variables
 
 Name | Description | possible values (/format) | default | mandatory
 --- | --- | --- | --- | ---
-APP_DIR | The application directory which you have mounted. | any valid path | /var/www/app | n
+PHP_HOST | The host for the php fpm service. | any valid host | php | n 
+PHP_PORT | The port for the php fpm service. | any valid port | 9000 | n 
+APP_DIR | The application directory which you have mounted. | any valid path | /var/www/app | n 
 SSL_COUNTRY | The country code for the ssl certificate. | ISO2 | DE | n
 SSL_STATE | The state code for the ssl certificate. | any valid state | BW | n
 SSL_CITY | The city for the ssl certificate. | any valid city | FREIBURG | n
